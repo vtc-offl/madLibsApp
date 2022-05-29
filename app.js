@@ -21,5 +21,6 @@ for(let i = questions; i > 0; i--)
     userInputs.push(prompt(questionArray[questionCounter] + `... (${questionTotal} questions left)`));
     questionCounter+=1;
 }
-    
-console.log(`In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[2]}`);
+
+var originalStory = document.getElementById("orgStory");
+originalStory.innerHTML = `In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[2]}`;
