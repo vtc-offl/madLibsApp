@@ -9,6 +9,8 @@ function updateName() {
 
 var myDiv = document.getElementById("clickMe");
 myDiv.innerHTML = "I like" + "ba" + (+"Javascript") + "a";
+let userInputs = [];
+let story = 'In ${userInputs[0]}, computer pioneer ${userInputs[1]} found herself working on a ${userInputs[2]}. Word got out that the team had "debugged" the ${userInputs[2]}';
 
 let a = "1";
 console.log(typeof a);
